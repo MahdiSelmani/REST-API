@@ -41,7 +41,7 @@ router.get('/', async (req, res) => {
 
 
 // ADD A NEW USER TO THE DATABASE
-//METHOD GET
+//METHOD POST
 
 router.post('/', async (req, res) => {
     const { name, age, email } = req.body
